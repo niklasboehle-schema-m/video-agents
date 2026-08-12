@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "root": ".",
+  "sounds": {
+    "pop_soft": {"file": "pops/pop-soft.wav"},
+    "pop_hard": {"file": "pops/pop-hard.wav"},
+    "click": {"file": "pops/click.wav", "gain_db": -2.0},
+    "whoosh_in": {"file": "whoosh/whoosh-in.wav"},
+    "whoosh_out": {"file": "whoosh/whoosh-out.wav"},
+    "whoosh_short": {"file": "whoosh/whoosh-short.wav", "gain_db": -3.0},
+    "swipe": {"file": "whoosh/swipe.wav"},
+    "riser": {"file": "movement/riser.wav"},
+    "thud": {"file": "impact/thud.wav"}
+  }
+}

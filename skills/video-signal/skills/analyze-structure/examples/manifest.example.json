@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "project": "Original campaign-planning tutorial",
+  "source": {
+    "title": "Reference productivity tutorial",
+    "url": "https://example.com/reference-video",
+    "duration": 18.0,
+    "transcript_confidence": "verified"
+  },
+  "strategy": {
+    "audience": "Busy operators who assume speed comes from working faster.",
+    "opening_contract": "Reveal a counterintuitive way to finish important work sooner.",
+    "payoff": "A three-part planning method.",
+    "retention_drivers": [
+      "question-pressure",
+      "value-ladder",
+      "proof-chain"
+    ],
+    "notes": "The transfer uses campaign planning and different evidence."
+  },
+  "beats": [
+    {
+      "id": "beat-01",
+      "start": 0.0,
+      "end": 2.4,
+      "source_text": "Working faster is usually the slowest way to finish.",
+      "function": "pattern-break",
+      "job": "Reverse the audience's default assumption about speed.",
+      "audience_before": "Speed comes from doing tasks faster.",
+      "audience_after": "Speed may depend on a different decision.",
+      "information_gain": "The expected solution is challenged.",
+      "handoff": "The viewer needs to know what actually creates speed.",
+      "rewrite": {
+        "status": "approved",
+        "objective": "Challenge the default belief that campaign speed starts inside the ad platform.",
+        "line": "Your fastest campaign usually starts before you open the ad manager.",
+        "target_duration": 2.8
+      }
+    },
+    {
+      "id": "beat-02",
+      "start": 2.4,
+      "end": 6.2,
+      "source_text": "I learned this after missing three deadlines in one month.",
+      "function": "proof",
+      "job": "Ground the reversal in a concrete experience.",
+      "audience_before": "The opening could be empty contrarianism.",
+      "audience_after": "The speaker has evidence for the claim.",
+      "information_gain": "A repeated failure created the insight.",
+      "handoff": "The viewer is ready for the causal explanation.",
+      "rewrite": {
+        "status": "approved",
+        "objective": "Use the user's campaign evidence rather than the reference anecdote.",
+        "line": "We found it after two rushed launches produced the same targeting mistake.",
+        "target_duration": 3.7
+      }
+    },
+    {
+      "id": "beat-03",
+      "start": 6.2,
+      "end": 10.8,
+      "source_text": "The real bottleneck was deciding the priority after the day had already started.",
+      "function": "mechanism",
+      "job": "Explain the hidden cause behind slow execution.",
+      "audience_before": "The viewer knows the old approach failed.",
+      "audience_after": "The viewer understands why it failed.",
+      "information_gain": "Late prioritization creates rework.",
+      "handoff": "The explanation should become a practical process.",
+      "rewrite": {
+        "status": "approved",
+        "objective": "Explain the campaign-specific bottleneck.",
+        "line": "The delay was not production; it was choosing the audience after the creative was finished.",
+        "target_duration": 4.5
+      }
+    },
+    {
+      "id": "beat-04",
+      "start": 10.8,
+      "end": 15.5,
+      "source_text": "So choose one outcome, remove two distractions, and schedule the first move.",
+      "function": "step",
+      "job": "Compress the mechanism into an actionable three-part method.",
+      "audience_before": "The viewer understands the cause but lacks a procedure.",
+      "audience_after": "The viewer has a concrete sequence to try.",
+      "information_gain": "A three-part method resolves the bottleneck.",
+      "handoff": "The final beat can state the payoff and next action.",
+      "rewrite": {
+        "status": "approved",
+        "objective": "Give the user's campaign planning sequence.",
+        "line": "Lock the audience, choose one promise, and collect the proof before anyone builds the ads.",
+        "target_duration": 4.8
+      }
+    },
+    {
+      "id": "beat-05",
+      "start": 15.5,
+      "end": 18.0,
+      "source_text": "Try it tomorrow and see how much earlier you finish.",
+      "function": "cta",
+      "job": "Convert the method into one immediate test.",
+      "audience_before": "The viewer has a process but no commitment.",
+      "audience_after": "The viewer knows exactly what to test next.",
+      "information_gain": "The method can be tested on the next workday.",
+      "handoff": "The video can end after the clear action.",
+      "rewrite": {
+        "status": "approved",
+        "objective": "Give a campaign-specific next action.",
+        "line": "Use that order on your next brief and measure how many revisions disappear.",
+        "target_duration": 3.1
+      }
+    }
+  ]
+}

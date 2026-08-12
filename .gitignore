@@ -1,0 +1,20 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key
+
+# User media and generated working files
+*.mp3
+*.mp4
+*.mov
+*.wav
+*.webm
+!skills/find-b-roll/assets/demo.mp4
+!skills/match-color/assets/demo.mp4
+!skills/video-signal/assets/demo.mp4
+reports/
+*_work/
+sessions/

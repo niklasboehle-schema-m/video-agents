@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "project": "Product tutorial intro",
+  "source_duration": 24.6,
+  "target": {
+    "width": 1080,
+    "height": 1920
+  },
+  "beats": [
+    {
+      "id": "beat-01",
+      "start": 2.4,
+      "end": 5.2,
+      "spoken_text": "We built the first draft in Figma.",
+      "intent": "Show the actual design canvas rather than a generic logo.",
+      "route": "product-ui",
+      "queries": [
+        "Figma official product UI design canvas"
+      ],
+      "status": "candidates",
+      "candidates": [
+        {
+          "id": "figma-canvas",
+          "title": "Owned screen recording of the project canvas",
+          "url": "https://www.figma.com/",
+          "publisher": "Project team",
+          "captured_at": "2026-07-24",
+          "rights": {
+            "status": "owned",
+            "note": "Recorded by the project team."
+          },
+          "scores": {
+            "accuracy": 30,
+            "authority": 20,
+            "rights": 20,
+            "clarity": 14,
+            "format": 9,
+            "freshness": 5
+          },
+          "local_path": "assets/figma-canvas.mp4"
+        },
+        {
+          "id": "official-overview",
+          "title": "Official Figma product overview",
+          "url": "https://www.figma.com/design/",
+          "publisher": "Figma",
+          "captured_at": "2026-07-24",
+          "rights": {
+            "status": "editorial-review",
+            "note": "Accurate official source; reuse terms still need review."
+          },
+          "scores": {
+            "accuracy": 25,
+            "authority": 20,
+            "rights": 8,
+            "clarity": 13,
+            "format": 8,
+            "freshness": 5
+          }
+        }
+      ],
+      "notes": "Start on the word Figma."
+    },
+    {
+      "id": "beat-02",
+      "start": 8.1,
+      "end": 11.4,
+      "spoken_text": "Then we tested the flow with five customers.",
+      "intent": "Show the act of reviewing a prototype without implying these are the actual customers.",
+      "route": "location-action",
+      "queries": [
+        "licensed usability testing hands prototype"
+      ],
+      "status": "planned",
+      "candidates": [],
+      "notes": "Use clearly illustrative footage and avoid identifiable participants."
+    }
+  ]
+}

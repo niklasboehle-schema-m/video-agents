@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Sound Effects"
+  short_description: "Place whooshes and pops under a finished video"
+  default_prompt: "Use $add-sfx to place restrained sound effects under the text, overlays, transitions, and visual examples in this video."

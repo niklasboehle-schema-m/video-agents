@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "library": "../sfx/library.json",
+  "gain_db": -14,
+  "cues": [
+    {
+      "at": 0.94,
+      "sound": "pop_soft",
+      "slot": "intro_text",
+      "note": "word 'boring' lands"
+    },
+    {
+      "at": 1.28,
+      "sound": "pop_soft",
+      "slot": "intro_text",
+      "note": "word 'engaging' lands"
+    },
+    {
+      "at": 3.31,
+      "sound": "whoosh_short",
+      "slot": "transition",
+      "gain_db": -16,
+      "note": "cut to the car, starts 0.14s before the cut"
+    },
+    {
+      "at": 6.12,
+      "sound": "pop_hard",
+      "slot": "overlay",
+      "duration": 0.4,
+      "note": "emoji stack on the phone screen"
+    },
+    {
+      "at": 9.05,
+      "sound": "click",
+      "slot": "visual_example",
+      "note": "editor icon appears"
+    }
+  ]
+}

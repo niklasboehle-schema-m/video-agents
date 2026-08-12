@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Structure"
+  short_description: "Map pacing and retention without copying"
+  default_prompt: "Use $analyze-structure to map this reference video and build an original structure-transfer plan."

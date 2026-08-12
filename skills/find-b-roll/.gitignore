@@ -1,0 +1,28 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# Source media, downloaded assets, and renders
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+!assets/demo.mp4
+broll_work/
+
+# Python and operating-system files
+__pycache__/
+*.pyc
+.ruff_cache/
+.venv/
+venv/
+.DS_Store

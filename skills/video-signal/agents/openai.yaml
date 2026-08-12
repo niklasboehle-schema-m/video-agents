@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Video"
+  short_description: "Turn one video into a structured analysis"
+  default_prompt: "Use $video-signal to analyze this local video and return a timestamped, evidence-conscious report."

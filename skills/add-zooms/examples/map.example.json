@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "focus": {
+    "x": 0.5,
+    "y": 0.38
+  },
+  "events": [
+    {
+      "kind": "punch",
+      "start": 2.4,
+      "duration": 0.34,
+      "scale": 1.23,
+      "note": "payoff word"
+    },
+    {
+      "kind": "steps",
+      "beats": [
+        {"start": 5.1, "scale": 1.12},
+        {"start": 5.55, "scale": 1.18},
+        {"start": 6.02, "scale": 1.25}
+      ],
+      "end": 6.52,
+      "note": "three-part list"
+    },
+    {
+      "kind": "push",
+      "start": 9.2,
+      "end": 12.0,
+      "from": 1.0,
+      "to": 1.12,
+      "note": "main idea"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Zooms"
+  short_description: "Add speech-timed zooms to finished videos"
+  default_prompt: "Use $add-zooms to add tasteful transcript-timed motion to this finished video."

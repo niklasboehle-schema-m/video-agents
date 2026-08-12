@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Video Analysis Skills</title>
+  <desc id="desc">Understand the footage and map the structure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101019"/>
+      <stop offset=".56" stop-color="#171724"/>
+      <stop offset="1" stop-color="#241829"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#C4A7FF"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".034"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1030" cy="74" r="135" fill="#7DD3FC" opacity=".13" filter="url(#blur)"/>
+  <circle cx="1120" cy="300" r="135" fill="#C4A7FF" opacity=".14" filter="url(#blur)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="70" y="55" width="218" height="34" rx="17" fill="#FFFFFF" fill-opacity=".07" stroke="#FFFFFF" stroke-opacity=".13"/>
+    <circle cx="92" cy="72" r="5" fill="#7DD3FC"/>
+    <text x="107" y="77" fill="#F8F7FB" font-size="14" font-weight="650" letter-spacing=".75">VIDEO ANALYSIS SKILLS</text>
+
+    <text x="70" y="162" fill="#FFFFFF" font-size="59" font-weight="770" letter-spacing="-2">See what happens.</text>
+    <text x="70" y="225" fill="url(#accent)" font-size="59" font-weight="770" letter-spacing="-2">Understand why it works.</text>
+    <text x="73" y="271" fill="#C9C5D2" font-size="19">Timestamped evidence · functional beats · original transfer</text>
+
+    <g transform="translate(73 301)">
+      <rect width="154" height="34" rx="10" fill="#7DD3FC" fill-opacity=".10" stroke="#7DD3FC" stroke-opacity=".42"/>
+      <text x="18" y="22" fill="#C9EEFF" font-size="14" font-weight="650">ANALYZE VIDEO</text>
+      <rect x="166" width="184" height="34" rx="10" fill="#C4A7FF" fill-opacity=".09" stroke="#C4A7FF" stroke-opacity=".35"/>
+      <text x="186" y="22" fill="#E8DDFF" font-size="14" font-weight="650">ANALYZE STRUCTURE</text>
+      <rect x="362" width="153" height="34" rx="10" fill="#FFFFFF" fill-opacity=".055" stroke="#FFFFFF" stroke-opacity=".18"/>
+      <text x="383" y="22" fill="#E8E5EC" font-size="14" font-weight="650">ORIGINALITY CHECK</text>
+    </g>
+  </g>
+
+  <g transform="translate(833 66)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect width="292" height="228" rx="21" fill="#0D0D14" stroke="#FFFFFF" stroke-opacity=".14"/>
+    <text x="22" y="33" fill="#8E8998" font-size="11" letter-spacing="1">REFERENCE TIMELINE</text>
+    <g transform="translate(22 52)">
+      <rect width="248" height="24" rx="7" fill="#1E1E29"/>
+      <rect width="42" height="24" rx="7" fill="#7DD3FC" fill-opacity=".75"/>
+      <rect x="47" width="61" height="24" rx="7" fill="#C4A7FF" fill-opacity=".68"/>
+      <rect x="113" width="36" height="24" rx="7" fill="#7DD3FC" fill-opacity=".52"/>
+      <rect x="154" width="58" height="24" rx="7" fill="#C4A7FF" fill-opacity=".52"/>
+      <rect x="217" width="31" height="24" rx="7" fill="#7DD3FC" fill-opacity=".75"/>
+    </g>
+    <path d="M146 89V115" stroke="#6F6978" stroke-width="2"/>
+    <path d="M140 109L146 115L152 109" fill="none" stroke="#6F6978" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="22" y="140" fill="#8E8998" font-size="11" letter-spacing="1">FUNCTIONAL MAP</text>
+    <g transform="translate(22 153)">
+      <rect width="75" height="52" rx="10" fill="#7DD3FC" fill-opacity=".09" stroke="#7DD3FC" stroke-opacity=".26"/>
+      <text x="15" y="23" fill="#C9EEFF" font-size="10" font-weight="700">PATTERN</text>
+      <text x="19" y="38" fill="#C9EEFF" font-size="10" font-weight="700">BREAK</text>
+      <rect x="86" width="75" height="52" rx="10" fill="#C4A7FF" fill-opacity=".08" stroke="#C4A7FF" stroke-opacity=".24"/>
+      <text x="99" y="31" fill="#E8DDFF" font-size="10" font-weight="700">PROOF</text>
+      <rect x="172" width="76" height="52" rx="10" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".13"/>
+      <text x="186" y="31" fill="#D9D5DD" font-size="10" font-weight="700">PAYOFF</text>
+    </g>
+  </g>
+</svg>

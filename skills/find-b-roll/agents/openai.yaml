@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find B-Roll"
+  short_description: "Source and place accurate B-roll safely"
+  default_prompt: "Use $find-b-roll to plan, source, and time accurate B-roll for this video."
